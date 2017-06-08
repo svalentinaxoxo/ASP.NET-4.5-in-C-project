@@ -1,0 +1,345 @@
+﻿@charset "UTF-8";
+/* CSS Document */
+/* Shelby Laquitara, 03/20/2016, Project.css */
+/* =============================================================== */
+/* BOOTSTRAP - Overrule the styles that impacts the menu */
+/* =============================================================== */
+.navbar {
+    width:960px;
+    margin: 0px auto;
+    background-color: #e00144;
+    color: #FFF;
+}
+.navbar-default .navbar-text{
+    color: #777;
+}
+.navbar-default .navbar-nav > li > a { /* Menu text color */
+    color: #FFF;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #d8e6b3;                     /* Main Menu Mouseover */
+    background-color: #042841;
+} 
+.navbar- default .navbar-brand{         /*navbar-default formats NAV tag */
+    color: #FFF;                        /* navbar-brand - Home Button */
+}
+.navbar-default, .navbar-form, .navbar-collapse {   /*navbar-expand */
+    /* navbar-brand - Home Button */
+    color: #FFF;
+    background-color: #e00144;          /* Menu background color */
+    font-family: Papyrus;
+    font-size: 14pt;
+    /* background-color: transparent; use this if you want */
+}
+navbarHome:hover, #navbarHome:focus { /* Home button only */
+    color: #d8e6b3;
+    background-color: #042841;
+}
+/* If the dropdown is open, format the main navbar */
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #d8e6b3;
+    background-color: #042841;
+}
+/* =============================================================== */
+/* formats the DROPDOWN menu */
+/* =============================================================== */
+.dropdown { /* Used for the top/1st LI in the UL - DropDown menu */}
+.dropdown-toggle{ /* Used for the top/1st LI in the UL - DropDown menu */}
+.dropdown-menu { /* Used for the A in the LI - DropDown menu */}
+
+.dropdown.dropdown-toggle > a { /* Submenu and Top menu */
+}
+.dropdown-menu li a {
+    color: #042841; /* Text color of submenu */
+}
+.dropdown-menu li a:hover {
+    background-color: #e00144;
+    color: #FFF /* White mouseover submenu */
+}
+.dropdown-menu li a:focus {
+    background-color: #e00144;
+    color: #FFF; /* Individual mouseover submenu */
+}
+.dropdown-toggle span{ /* caret */
+    color: #FFF;
+}
+
+/* ==================================== */
+/* DEFAULT STYLES - Project.css */
+/* ==================================== */
+
+body {
+	margin: 0px auto;  
+   /* centers the page content */ 
+	background-color:#FFFFFF; 				 
+	color:#000;
+	font-family:
+ Verdana,Arial,Helvetica,sans-serif;
+	font-size:12pt;  
+}   
+
+/* HEADER SECTION */
+
+header {
+	width:960px;
+	height:100px;  
+	margin: 0px auto;  
+	padding: 0px;
+	z-index: 100;  
+	background-image: url(/App_Themes/MyTheme/Images/banner.jpg);
+	
+background-color:#e00144;    
+/* Pick a solid color */
+	background-size:960px 100px;
+	background-repeat:no-repeat;  
+} 
+.logo {
+	width:180px;
+	height:100px; 
+	float:left;
+}
+.topMenu {
+	padding-right: 80px; 
+	padding-top: 10px; 
+	color:#042841;
+	text-align:right;
+	font-size: 9pt; 
+	font-family: 
+   Verdana, Geneva, sans-serif; 
+}
+.topMenu a, a:visited {
+	text-decoration:none;
+	color:#141919;
+}
+.topMenu a:hover {
+	color:#cd2c31;
+}
+header h1 {
+	text-align:center;
+	padding-right: 0px;  
+	
+	color:#FFF;
+	font-family:Papyrus;
+    	outline:1px 0px #d8e6b3; 
+/* CSS 3 style */ 
+	text-shadow: 4px -2px 4px #000000;
+}  
+
+/* MIDDLE PAGE ROW */
+
+.main {
+	width:960px; 
+	padding: 0px 0px;
+	margin: 0px auto;   
+	background-color: #FFF; 
+/* Pick a light color */
+}  
+/* MAIN CONTENT SECTION  - RIGHT*/
+.content { 
+	width:780px;  
+	padding: 0px 10px;
+	display:table-cell; 
+	vertical-align:top; 
+} 
+.content h2 {
+	color:#042841;
+} 
+.content a, a:visited {
+	text-decoration:none;
+	color:#141919;
+}
+.content a:hover {
+	color:#A69055;
+}  
+/* MENU SECTION - Bullet List LEFT */
+aside {   /* the whole list */
+	width:180px;  
+	margin: 0px auto; 
+	vertical-align:top;
+	padding: 0px 0px;
+	display:table-cell; 
+	margin-bottom: 15px;   
+	} 
+aside p {  
+	padding: 0px 0px; 
+	text-align:center;  
+}  
+
+/* Add to overrule scaffolding.less.css */
+div.main aside.leftAside p a img {
+     width: 157px;
+     height: 117px; 
+} 
+ 
+/* ==================================== */
+/* FOOTER CONTENT SECTION */
+
+footer {
+	width:960px; 
+	padding: 10px 0px;
+	margin: 0px auto;  
+	clear: both;   
+	
+	background-color:#e00144;   
+/* 042841 Dark Blue */
+	text-align:center;
+	color: #d8e6b3;
+}  
+
+/* ==================================== */
+/* GENERIC CLASSES */ 
+
+.fltrt {  
+	float: right;
+	margin-left: 8px;
+}
+.fltlft {  
+	float: left;
+	margin-right: 8px;
+}
+.borderon {
+	border-width:5px; 
+	border-color:#000000;
+}   
+.brClear{
+	clear:both;	
+}
+ 
+
+
+
+/* ==================================== */
+/* REGISTRATION FORM */ 
+/* ==================================== */
+
+legend {
+    display: block;
+    padding-left: 2px;
+    padding-right: 2px;
+    border: none; 
+    font-size:10pt;
+    font-weight:bold;
+    padding-top:10px;
+    display:block;
+}
+
+/* ==================================== */
+/* REGISTRATION FORM STYLES */ 
+
+.RegForm input { 
+    font-size:.75em;
+    color: gray;
+}
+
+.RegForm input:focus, .RegForm select:focus  {
+    background-color:aliceblue;
+    color: black;
+    font-size:.75em;
+} 
+.RegForm span {
+    font-size:.75em;
+    font-weight:normal;
+    color:#808080;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+.RegForm label {
+    /*background-color:aliceblue;*/
+    font-size:.75em;
+    font-weight:normal;
+    color:#042841; 
+}
+
+/* The animation code */
+@keyframes starlights2 {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+/* The animation code */
+@keyframes starlights {
+    0%   {color: red;}
+    20%  {color: orange;}
+    40%  {color: blue;}
+    60%  {color: purple;}
+    80%  {color: green;}
+    100% {color: red;}
+} 
+
+.RegForm span.ValControls {
+    color: #FF0000;
+    font-weight: bold;
+    font-size:1.0em;
+    animation-name: starlights;
+    animation-delay: 2s;
+    animation-iteration-count: 3; 
+    animation-duration: 10s; 
+}
+.RegForm div.ValSummary ul   {
+   color:Gray;
+   font-size:.85em; 
+}   
+.RegForm div.ValSummary   { 
+   color:Gray;
+   font-size:.85em; 
+   border-color:#CCCCCC;
+   border-width:1px;
+   border-style:solid;
+   width:500px;
+   padding: 10px; 
+}   
+
+/* Used to display the response with the form values */
+
+div.Response  {  /* div */
+    color:Gray;
+    font-size:.85em;  
+    -webkit-box-sizing:content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border-color:Gray;
+    border-width:1px;
+    border-style:solid;
+    width:700px;
+    height:300px;
+    padding: 10px;  
+}   
+.Response0Style { /* label */
+    width:500px; 
+}   
+.Response1Style { /* label */
+     width:350px;
+     float:left; 
+}   
+.Response2Style { /* label */
+    width:350px;
+    float:right; 
+} 
+
+/* ==================================== */
+/* Used to display the ad images on the ads page. */
+
+img.ads {
+   width:175px;
+   height:130px;
+}
+
+/* Used to format the application variables - number of online users */
+
+div#appVars {
+    text-align:center;
+    line-height: 1.5em; 
+    background-color: #042841; 
+	color: #FFF;
+    margin:5px;
+}
+
+div#appVars {
+    text-align:center;
+    line-height: 1.5em;
+    background-color: #042841;
+    color: #FFF;
+    margin:5px;
+}
