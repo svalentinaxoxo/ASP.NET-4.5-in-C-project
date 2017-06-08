@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisments>
+  <Ad>
+    <ImageUrl>~/Images/Ads/alice.jpg</ImageUrl>
+    <height>200</height>
+    <width>300</width>
+    <NavigationUrl>http://www.gutenberg.org/files/28885/28885-h/28885-h.htm/</NavigationUrl>
+    <AlternateText>Alice's Adventures in Wonderland, Lewis Carroll, 2009</AlternateText>
+    <Impressions>80</Impressions>
+    <Keyword>alice</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/Ads/galaxy.jpg</ImageUrl>
+    <height>200</height>
+    <width>300</width>
+    <NavigationUrl>http://www.gutenberg.org/files/51681/51681-h/51681-h.htm/</NavigationUrl>
+    <AlternateText>Amateur in Chancery, George O Smith, 2016</AlternateText>
+    <Impressions>80</Impressions>
+    <Keyword>Galaxy</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/Ads/lion.jpg</ImageUrl>
+    <height>200</height>
+    <width>300</width>
+    <NavigationUrl>http://www.gutenberg.org/files/38208/38208-h/38208-h.htm/</NavigationUrl>
+    <AlternateText>Animal Story Book, Various, 2011</AlternateText>
+    <Impressions>80</Impressions>
+    <Keyword>Lion</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/Ads/ozmaOfOz.jpg</ImageUrl>
+    <height>200</height>
+    <width>300</width>
+    <NavigationUrl>http://www.gutenberg.org/files/33361/33361-h/33361-h.htm/</NavigationUrl>
+    <AlternateText>Ozma of Oz, L Frank Baum, 2010</AlternateText>
+    <Impressions>80</Impressions>
+    <Keyword>Ozma</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/Ads/storiesOfOz.jpg</ImageUrl>
+    <height>200</height>
+    <width>300</width>
+    <NavigationUrl>http://www.gutenberg.org/files/25519/25519-h/25519-h.htm/</NavigationUrl>
+    <AlternateText>Little Wizard Stories of Oz, L Frank Baum, 2008</AlternateText>
+    <Impressions>80</Impressions>
+    <Keyword>Oz</Keyword>
+  </Ad>
+</Advertisments>
